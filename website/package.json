@@ -1,0 +1,14 @@
+{
+  "name": "WeatherApplication",
+  "description": "Weather application using SMHI API",
+  "version": "0.0.1",
+  "main": "app.js",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GitThisJoel/WeatherApplication.git"
+  },
+  "dependencies": {
+    "express": "4.x"
+  }
+}
