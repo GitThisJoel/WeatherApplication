@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>Weather app based on SMHI</title>
+        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+        <style type="text/css">
+            #nolocation, #location {
+                display:none
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="container">
+            <div id="nolocation">
+                <h1>Please choose a location to begin!</h1>
+            </div>
+            <div id="location">
+                <h1>Weather for your location:</h1>
+                <div id="temp"></div>
+                <div id="windspeed"></div>
+            </div>
+        </div>
+    </body>
+
+    <script id=temp-template type="text/x-handlebars-template">
+        
+    </script>
+
+    <script id=windspeed-template type="text/x-handlebars-template">
+    
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.6/handlebars.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+
+    <script>
+        (function () {
+            $('#nolocation').show();
+            $('#location').hide();
+        })();
+    </script>
+</html>
