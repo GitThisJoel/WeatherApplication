@@ -2,7 +2,6 @@ import os
 import json
 import requests
 
-
 # variables for the get operation
 cat = 'pmp3g'
 ver = 2
